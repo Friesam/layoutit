@@ -1,0 +1,58 @@
+
+#this is the style
+@import url(https://fonts.googleapis.com/cssfamily=Source+Code+Pro);
+h1 {
+    font-weight:200;
+    text-transform:uppercase;
+    border: 5px sold;
+    font-size:70px;
+
+
+}
+body {
+    background-color:#F69840;
+    color:#2E1263;
+    font-family:"Source Code Pro";
+    font-weight:200;
+}
+button {
+
+        margin: 30px auto 0;
+        padding:20 px 25px;
+        color:#2E1263;
+        background-color:#F69840;
+        font-size: 14px;
+        text-align: center;
+        border: 1px solid #2E1263;
+        text-transform:uppercase;
+        text-decoration: none;
+        outline:none;
+}
+
+button:hover{
+        transition: 0.5s;
+        background-column: #2E1263;
+        color: #F69840;
+        text-decoration: underline;
+
+
+}
+
+p{
+    font-size: 20px;
+    }
+
+img {
+height: 500px;
+border-radius:5%;
+
+}
+
+#container {
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+
+}
