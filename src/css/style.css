@@ -1,1 +1,126 @@
 # Empty CSS file for your own CSS
+
+
+// Grid guide
+.grid-container {
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: 50px 50px 50px;/*Make the grid smaller than the container*/
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
+}
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+//forms {
+    box-sizing: border-box;
+}
+
+input[type=text], select, textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container-fluid{
+background-color: pink;
+padding 7px;
+margin 10px 10px;
+radius:5px;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media (max-width: 700px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+//
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+        //border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 5px;
+}
+
+.container img {
+    width: 100%;
+
+}
+
+.container .btns {
+    position: absolute;
+    top: 96%;
+    right: 40%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #f1f1f1;
+    opacity: 0.5;
+    color: black;
+    font-size: 14px;
+    padding: 14px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.container .btn:hover {
+    background-color: black;
+    color: white;
+}
+
+// footer
+.footer {
+    background-color:hsla(120,100%,50%,0.3);
+    margin-top : 300px;
+
+    }
