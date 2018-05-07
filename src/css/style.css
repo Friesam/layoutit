@@ -1,21 +1,22 @@
 # Empty CSS file for your own CSS
 
+body {
+background-color: purple;
+}
 
 // Grid guide
-.grid-container {
+.grid-container{
   display: grid;
   justify-content: space-evenly;
-  grid-template-columns: 50px 50px 50px;/*Make the grid smaller than the container*/
+  grid-template-columns: 5px 5px 5px;/*Make the grid smaller than the container*/
   grid-gap: 10px;
   background-color: #2196F3;
   padding: 10px;
+  margin-right:20px;
+  margin-left:20px;
+  margin-bottom: 5px;
 }
-.grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
-}
+
 //forms {
     box-sizing: border-box;
 }
@@ -49,22 +50,32 @@ input[type=submit]:hover {
 }
 
 .container-fluid{
-background-color: pink;
-padding 7px;
-margin 10px 10px;
-radius:5px;
+    background-color: pink;
+    padding: 7px;
+    margin-right:20px;
+    margin-left:20px;
+    margin-bottom: 5px;
+    radius:5px;
+}
+#myCarousel{
+    margin-right:20px;
+    margin-left:20px;
+    margin-bottom: 5px;
 }
 
 .col-25 {
     float: left;
     width: 25%;
     margin-top: 6px;
+    margin-right:10px;
+
 }
 
 .col-75 {
     float: left;
     width: 75%;
     margin-top: 6px;
+    margin-right: 10px;
 }
 
 /* Clear floats after the columns */
@@ -85,17 +96,28 @@ radius:5px;
 .container {
     position: relative;
     width: 100%;
-    max-width: 400px;
+    //max-width: 400px;
         //border-radius: 5px;
-        background-color: #f2f2f2;
-        padding: 5px;
+    background-color: purple;
+    padding: 5px;
+    margin-right:10px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+
 }
 
 .container img {
     width: 100%;
 
 }
+.map
+{
+    margin-right:20px;
+    margin-left: 20px;
+    margin-bottom: 5px;
+    padding: 25px;
 
+}
 .container .btns {
     position: absolute;
     top: 96%;
@@ -121,6 +143,9 @@ radius:5px;
 // footer
 .footer {
     background-color:hsla(120,100%,50%,0.3);
-    margin-top : 300px;
+    margin-top: 5px;
+    margin-right:20px;
+    margin-left: 20px;
+    margin-bottom: 5px;
 
     }
